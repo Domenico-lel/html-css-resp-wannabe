@@ -133,3 +133,28 @@ img {
         width: auto;
     }
 }
+
+@media all and (max-width: 480px){
+    .row {
+        display: block;
+    }
+    /* LESSONS CLASS */
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    /* STEPS CLASS */
+    .steps .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    /* WHY US SECTION */
+    .text-center .row{
+        display: block;
+
+    }
+    .why-us .container{
+        width: 90%;
+    }
+}
+    
